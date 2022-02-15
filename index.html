@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>2048 Game</title>
+
+</head>
+
+<body>
+
+    <div id="heading">
+        2048
+    </div>
+    <div id="container">
+        <div id="controls">
+            <div id="scoreboard">
+                <div class="scores">
+                    Score: <span id="score">0</span>
+                </div>
+                <div class="scores">
+                    HighScore: <span id="highscore"></span>
+                </div>
+
+            </div>
+            <div id="buttons">
+                <div id="undo" onclick="undoMove()">
+                    Undo
+                </div>
+                <div id="reset" onclick="resetGame()">
+                    Reset
+                </div>
+            </div>
+        </div>
+        <div id="playarea">
+            <div id="startContainer" style = "padding-top: 200px;">
+                <div id="start" onclick="startGame()">
+                    Start
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

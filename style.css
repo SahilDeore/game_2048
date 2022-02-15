@@ -1,0 +1,157 @@
+html {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(167, 255, 255);
+}
+
+#heading {
+    color: rgb(255, 153, 0);
+    font-size: 75px;
+}
+
+#container {
+    max-width: 800px;
+    margin: auto;
+}
+#controls {
+    display: flex;
+}
+
+#controls > div{
+    margin: 20px;
+}
+
+#scoreboard {
+    flex: 2;
+    display: flex;
+}
+
+.scores {
+    flex: 1;
+    background-color: rgb(190, 190, 190);
+    color: rgb(80, 79, 79);
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#buttons {
+    flex: 1;
+    display: flex;
+    color: rgb(99, 54, 54);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+#undo {
+    margin-left: 15px;
+    padding-top: 5px;
+    flex: 1;
+    border-radius: 5px;
+    background-color: rgb(92, 170, 233);
+    cursor: pointer;
+}
+
+#reset {
+
+    flex: 1;
+    margin-left: 15px;
+    padding-top: 5px;
+    border-radius: 5px;
+    background-color: rgb(245, 46, 39);
+    cursor: pointer;
+}
+
+#playarea {
+    margin: auto;
+    /* border: 2px solid rgb(90, 90, 90); */
+    border-radius: 5px;
+    width: 480px;
+    height: 480px;
+    background-color: rgb(231, 250, 58);
+}
+
+#start {
+    border: 1px solid darkgreen;
+    background-color: greenyellow;
+    border-radius: 5px;
+    margin: auto;
+    width: 120px;
+    height: 40px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.blockNum {
+    flex: 1;
+    font-size: 40px;
+    margin: auto;
+    padding-top: 36px;
+}
+
+.n0 {
+    background-color: rgb(150, 150, 150);
+    color:black;
+}
+
+.n2 {
+    background-color: rgb(238, 228, 218);
+    color: rgb(66,66,66);
+}
+
+.n4 {
+    background-color: rgb(237, 224, 200);
+    color: rgb(66,66,66);
+}
+
+.n8 {
+    background-color: rgb(242, 177, 121);
+    color:antiquewhite;
+}
+
+.n16 {
+    background-color: rgb(245, 149, 99);
+    color:antiquewhite;
+}
+
+.n32 {
+    background-color: rgb(246, 124, 95);
+    color:antiquewhite;
+}
+
+.n64 {
+    background-color: rgb(246, 94, 59);
+    color:antiquewhite;
+}
+
+.n128 {
+    background-color: rgb(237, 207, 114);
+    color:antiquewhite;
+}
+
+.n256 {
+    background-color: rgb(237, 204, 97);
+    color:antiquewhite;
+}
+
+.n512 {
+    background-color: rgb(237, 200, 80);
+    color:antiquewhite;
+}
+
+.n1024 {
+    background-color: rgb(237, 197, 63);
+    color:antiquewhite;
+}
+
+.n2048 {
+    background-color: rgb(237, 194, 46);
+    color:antiquewhite;
+}
+
+.nother {
+    background-color: black;
+    color: antiquewhite;
+}
