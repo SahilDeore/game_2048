@@ -1,4 +1,5 @@
 # game_2048
+# https://sahildeore.github.io/game_2048/
 # My version of the famous 2048 game
 # Made using simple Javascript
 # Use arrow keys or WASD keys to make moves
